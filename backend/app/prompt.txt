@@ -1,0 +1,259 @@
+You are a legal sale deed extraction system.
+
+Carefully analyze the provided sale deed document.
+
+Extract in detail ONLY:
+
+1. vendor_information - name, address
+2. purchaser_information - name, address
+3. consenting_party(if_any) - name, address
+4. ownership_history_information -  name, time-period of possession, sale deed document number
+5. property_location_information - exact address, direction with respect with to adjacent plots
+6. sale_amount_information - final transaction amount, list of all the installments
+
+Rules:
+- Return ONLY valid JSON
+- Do not explain anything
+- Do not add markdown
+- Preserve names exactly
+- If field missing return empty string
+
+Required JSON format:
+
+{
+  "vendor_information": [],
+  "purchaser_information": [],
+  "consenting_party_information": [],
+  "ownership_history_information": [],
+  "property_location_information": "",
+  "sale_amount_information": ""
+}
+
+Document:
+
+SALE DEED
+
+THIS SALE DEED OF NON-AGRICULTURE LAND IS MADE AND EXECUTED ON THIS 06TH DAY OF MARCH, 2025 AT PUNE.
+
+BETWEEN
+
+MR. DEEPAK CHANDRAKANT BRID
+S/O. MR. ASHISH CHANDRAKANT BRID
+Age: 50 Years
+Occupation: Agriculturist & Self Employed
+PAN: AETPB2020N
+
+Residing At:
+#5, 2 The Willows,
+15 Gulmohar Enclave Road,
+Near Kundanhalli Gate,
+Munnekolala,
+Bangalore - 560037, Karnataka
+
+Hereinafter called the “VENDOR”
+
+AND
+
+1. MRS. RIMZIM ARVIND BHARGAVA
+W/O. SHRI. NAKUL BHARGAVA
+Age: 39 Years
+Occupation: Housewife
+PAN: AMXPM1217F
+
+2. MR. NAKUL BHARGAVA
+S/O. Late Shri. Ashok Bhargava
+Age: 40 Years
+Occupation: Service
+PAN: ANTPB3218K
+
+Both residing at:
+A 1005, 33 Milestone,
+Near Akshara School,
+Tathawade,
+Pune - 411033, Maharashtra
+
+Hereinafter referred to as the “PURCHASER”
+
+MR. LALIT ANAND alias ANANT SHINDE
+Age: 37 Years
+Occupation: Farmer
+PAN: CEKPS9223G
+
+Residing at:
+Kasarsai,
+Tal-Mulshi,
+Dist-Pune-410506
+
+Hereinafter referred to as the “Consenting Party”
+
+WHEREAS,
+
+The Vendor has absolutely seized and possessed of or otherwise well and sufficiently entitled to a piece and parcel of Non Agricultural land or ground situated lying and being at Village Kasarsai, Tal-Mulshi, Dist-Pune within the registration district Pune, within the limits of Talathi Sajha Kasarsai, within the limits of Sub Registrar Mulshi 1 & 2 and within the limits of Grampanchayat Kasarsai, Tal-Mulshi Dist-Pune more particularly described in Schedule-I hereinafter written.
+
+AND WHEREAS,
+
+The present Vendor had purchased total of 7.5R of Land from MR. PAVAN RAMESH AGRAWAL and MRS. TRIPTY PAVAN AGRAWAL via sale deed bearing No. 2108/2014 dated 21/04/2014 and the same has duly been registered at Sub Registrar Mulshi(Paud), Dist Pune and by virtue of the above the present Vendor has become absolute owner and holder of the said land and their names have been found to be recorded at Land Revenue Office vide Mutation Entry No.3260 and also his name appears on 7/12 extract dated 13th Feb, 2025.
+
+AND WHEREAS,
+
+MR. PAVAN RAMESH AGRAWAL and MRS. TRIPTY PAVAN AGRAWAL got total area of 00H-17.5R of land from MRS. SUDHA VINAYAK NAIDU vide Sale Deed No.1267/2011 dated 08/03/2011 and (2) MRS. MEERA RAJESH VAZE vide Sale Deed No.1268/2011 dated 08/03/2011 and both the above sale deeds have been duly registered at Jt. Sub Registrar, Mulshi No.2, Pune.
+
+AND WHEREAS,
+
+MR. RAMSAGAR PRASAD purchased the said 00H-17.5R land of total area via 7/12 extract from M/s Developers, Pune through its Partners namely Mr. Arun Shankarrao Shinde and others with due consent of original land owners Mr. Anand Gangaram Shinde and his Mother Smt. Laxmibai Gangaram Shinde vide Sale Deed bearing No.4649/2006 dated 15/07/2006 and entry of her name appears on 7/12 Extract vide Mutation Entry No.2214.
+
+AND WHEREAS,
+
+Mr. Ramsagar Basant Prasad has obtained NA Order from Collector office dated 05/08/2008 bearing Order No. PML/NA/SR/367/07 granted permission to use a large portion of the said land for Non Agricultural purpose of residential use and the same were mutated on the record of rights of the said land vide Mutation Entry No.5228.
+
+AND WHEREAS,
+
+Mr. Anand alias Anandrao Shinde is approving the Sale Deed No.2808/2011 dated 21/04/2011 executed by Vendor and Mr. Pavan Ramesh Agrawal & Mrs. Tripty Pavan Agrawal through this document and admitting that the transaction is acceptable to him against the claim SP No.355/2015. It is confirmed that the above-mentioned claim will be withdrawn unconditionally and vendor’s name will be removed from defendants list immediately after this sale deed. It is also confirmed that Vendors name and subsequent purchaser’s names will not be included into defendants list in future. The Purchaser is free to develop or sell the land in future and the consenting party will not have any claim in that.
+
+AND WHEREAS,
+
+The Purchaser herein was in the search of and desirous of buying Non Agricultural land and approached the Vendor with offer to purchase the said land more particularly described in Schedule-II written hereinafter.
+
+AND WHEREAS,
+
+For the purpose of inspection the Vendor have given copies of all relevant documents related to the said property described in Schedule-I to the Purchaser and the Purchaser has inspected the same and satisfied about the clear marketable title of the said property described in Schedule-II.
+
+AND WHEREAS,
+
+The Purchaser is being ready and willing to get the SALE DEED executed and the Vendor has agreed to execute SALE DEED of Non Agricultural land more particularly described in Schedule-II hereinafter written in favour of the Purchaser.
+
+AND WHEREAS,
+
+Relying upon the above representations, the Purchaser has agreed to takeover rights, title and interest of the Vendor in the said property admeasuring about 0 H 1.875 R i.e. 1875 sq. ft. more particularly described in Schedule-II and rights incidental thereto on the terms conditions and for the consideration as recorded herein.
+
+NOW THIS INDENTURE WITNESSETH AS UNDER:
+
+1)
+
+The Vendor hereby agrees to sale, assign, transfer and convey absolute free from all encumbrances and without any reservations unto the Purchaser the said property specifically described in Schedule-II unto the Purchaser forever to have and to hold and the Purchaser relying upon the assurances and declarations as to the title of the Vendor and the marketability of the said property described in Schedule-II acquired right to get Sale Deed of the said property specifically described in Schedule-II in their names from the Vendor and purchased the same from the Vendor for and at the lump sum price of Rs.22,50,000/- (Rupees Twenty Two Lakhs Fifty Thousand only).
+
+PAYMENT SCHEDULE
+
+In Favor of: Deepak Brid
+Date: 30-01-25
+Bank Name: ICICI Bank
+Cheque No: 035372
+Amount: 2,00,000/-
+
+In Favor of: Deepak Brid
+Date: 03-02-25
+Bank Name: ICICI Bank
+Cheque No: 035367
+Amount: 4,84,375/-
+
+In Favor of: Deepak Brid
+Date: 05-02-25
+Bank Name: ICICI Bank
+Cheque No: 035373
+Amount: 11,90,625/-
+
+In Favor of: Lalit Anant Shinde
+Date: 06-02-25
+Bank Name: ICICI Bank
+Cheque No: 035375
+Amount: 3,75,000/-
+
+Total Amount:
+Rs.22,50,000/-
+(Rupees Twenty Two Lakhs Fifty Thousand only)
+
+2)
+
+It is agreed that the consideration cost of the said property described in Schedule-II has been already paid to the concerned Vendor and Consenting Party by way of cheque/RTGS in above “Payment Schedule” of Rs.22,50,000/- collectively against area of land admeasuring 00 H 1.875 R i.e. 1875 sq.ft.
+
+3)
+
+The Vendor hereby handed over and delivered actual and physical possession of the said part portion of the land described in Schedule-II hereunder to the Purchaser today and the Purchaser accepted the same from the Vendor as the absolute owner in full accord and satisfaction.
+
+4)
+
+The Vendor has agreed to make out a free, clear and marketable title of the said property described in Schedule-II free from all reasonable doubts and shall at their own responsibility and cost get in all outstanding estate and clear and encumbrances and/or claims including all claims by any of the disputants.
+
+5) SALE, TRANSFER AND CONVEYANCE
+
+In consideration of the price aforementioned, the Vendor hereby grants, transfers and conveys unto the Purchaser all rights, title and interest in the said property described in Schedule-II together with all easementary rights, roads, amenities, crossings, ways, water, electricity and all appurtenances whatsoever to the said property.
+
+TITLE, ASSURANCE AND INDEMNITY
+
+The Vendor has assured unto the Purchaser that:
+
+- The property is self-acquired property.
+- The Vendor has actual possession of the property.
+- The Vendor has clear legal, bonafide and marketable title.
+- The property is free from mortgage, charge, lien, lease, acquisition and reservation.
+- The property is not subject to claims from creditors, banks, lease and finance institutions.
+- The property is not subject matter of any income tax attachment.
+- Peaceful and vacant possession has been handed over to the Purchaser.
+
+INDEMNITY
+
+The Vendor agrees to indemnify and keep indemnified the Purchaser against all claims, liabilities, encumbrances, demands, dues, taxes and obligations related to the property described in Schedule-II.
+
+PAYMENT OF TAXES
+
+The Vendor declares that all taxes, property tax, cess and other rates payable in respect of the said property have been paid till the date of execution of these presents and future taxes shall be paid by the Purchaser.
+
+COVENANTS BY THE PURCHASER
+
+The Purchaser shall be sole and absolute owner of the said property described in Schedule-II and shall be liable to pay all future taxes and cesses.
+
+REGISTRATION OF THESE PRESENTS
+
+All charges and expenses of this Sale Deed by way of stamp duty, registration charges or other ancillary expenses thereto are borne and paid by the Purchaser.
+
+PARTICULARS OF STAMP DUTY AND REGISTRATION CHARGES
+
+Govt. Value for stamp duty purposes:
+Rs.17,81,370/-
+
+Agreed consideration:
+Rs.22,50,000/-
+
+Stamp Duty:
+Rs.1,35,000/-
+
+Registration Fees:
+Rs.22,500/-
+
+SCHEDULE-I
+
+All the piece and parcel of the Non Agricultural land bearing Survey No.16 Hissa No.3, Plot No.29, total area admeasuring 00 H 7.5 R i.e.750 sq.ft. out of total area of 14 H 43 R inclusive area of Pokharaba-04 R assessed Rs.2.77 Ps situated at village Kasarsai, Panchayat Samiti Mulshi, Taluka Mulshi, Zilla Parishad Pune.
+
+Boundaries:
+
+East:
+By 25 feet internal road
+
+South:
+By S.No.16/3/P130B owned by Mrs. Seema Wagh
+
+West:
+By remaining part of S.No.16/3/P31 and P33
+
+North:
+By Plot No.16/3/P28 owned by Mr. Pavan Agrawal
+
+SCHEDULE-II
+
+All the piece and parcel of the Non Agricultural land bearing Survey No.16/3 which is part of NA Plot No.22 described in Schedule-I admeasuring 00 H 1.875 R i.e.1875 sq.ft. Plot No.B10 situated at village Kasarsai, Panchayat Samiti Mulshi, Taluka Mulshi, Zilla Parishad Pune.
+
+Boundaries:
+
+East:
+By 25 feet internal road
+
+South:
+By S.No.16/3/P130B owned by Mrs. Seema Wagh
+
+West:
+By Plot No.B02 owned by Mrs. Dipti Londhe and Mr. Amol Londhe
+
+North:
+By 15 feet internal road
+
+IN WITNESS WHEREOF THIS DEED OF SALE DEED HAS BEEN EXECUTED AND SIGNED HEREUNDER BY PARTIES ON THE AFORESAID DATE AT PUNE.

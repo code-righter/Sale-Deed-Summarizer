@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+redis
+rq
+pymongo
+pdf2image
+deep-translator
+langdetect
+python-multipart
+python-dotenv
+pytesseract
+Pillow

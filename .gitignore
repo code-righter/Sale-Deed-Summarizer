@@ -1,0 +1,54 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+*.env
+
+# Logs
+*.log
+
+# Uploads / Temp
+uploads/
+storage/
+temp/
+output/
+
+# ML / Models
+models/
+*.pt
+*.bin
+
+# ChromaDB
+chroma/
+chromadb/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# ======================
+# Frontend
+# ======================
+final_frontend/node_modules/
+final_frontend/dist/
+
+# ======================
+# IDE
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# OS
+# ======================
+.DS_Store

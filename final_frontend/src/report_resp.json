@@ -1,0 +1,122 @@
+{
+  "success": true,
+  "document": {
+    "_id": "6a0c9ef8a0ddc6bd9b1d1409",
+    "document_id": "5bb55ed4-20d4-4d52-9002-5e5aee2947bb",
+    "document_name": "rimzim_stamp_paper.pdf",
+    "uploaded_at": "2026-05-19T17:33:44.692000",
+    "processing_status": "completed",
+    "total_pages": 15,
+    "stamp_pages_detected": 14,
+    "document_character_count": 23389,
+    "llm_output": {
+      "success": true,
+      "model": "qwen2.5:14b",
+      "document_character_count": 25892,
+      "extracted_data": {
+        "vendor_information": [
+          {
+            "name": "MR. DEEPAK CHANDRAKANT BRID /O.MRS. ASHA CHANDRAKANT BRID",
+            "address": "S2, The Willows, 15 Gulmohar Enclave Road, Near Kundanhalli gate, Munnekolala, Bangalore-560037, Karnataka"
+          }
+        ],
+        "purchaser_information": [
+          {
+            "name": "MRS. RIMZIM ARVIND BHARGAVA W/O.SHRI.NAKUL BHARGAVA",
+            "address": "A 1005, 33 Milestone, Near Akshara School, Tathawade, Pune - 411033, Maharashtra"
+          },
+          {
+            "name": "MR. NAKUL BHARGAVA /O.Late Shri.Ashok Bhargava",
+            "address": "A 1005, 33 Milestone, Near Akshara School, Tathawade, Pune - 411033, Maharashtra"
+          }
+        ],
+        "consenting_party_information": [
+          {
+            "name": "MR. LALIT ANAND alias ANANT SHINDE",
+            "address": "Kasarsai Tal- Mulshi, Dist - Pune-410506"
+          }
+        ],
+        "ownership_history_information": [
+          {
+            "owner_name": "MR.PAVAN RAMESH AGRAWAL and MRS.TRIPTY PAVAN AGRAWAL",
+            "possession_time_period": "",
+            "sale_deed_document_number": "2108/2011",
+            "transfer_details": ""
+          },
+          {
+            "owner_name": "MR.PAVAN RAMESH AGRAWAL and MRS.TRIPTY PAVAN AGRAWAL",
+            "possession_time_period": "",
+            "sale_deed_document_number": "4649/2006",
+            "transfer_details": ""
+          },
+          {
+            "owner_name": "Mrs.Sangita Ramsagar Prasad",
+            "possession_time_period": "",
+            "sale_deed_document_number": "226/2007",
+            "transfer_details": ""
+          }
+        ],
+        "property_location_information": {
+          "full_property_address": "Survey No.16 Hissa No.3, Plot No.801, village Kasarsai, Panchayat Samiti Mulshi, Taluka Mulshi, Zilla Parishad Pune",
+          "survey_numbers": [
+            "S.No.16/3",
+            "S.No.16/3/PL30B"
+          ],
+          "village": "Kasarsai",
+          "taluka": "Mulshi",
+          "district": "Pune",
+          "cts_number": "",
+          "plot_number": "29, Plot No.801",
+          "flat_number": "",
+          "building_name": "",
+          "boundaries": {
+            "east": "by 25 feet internal road",
+            "west": "By Plot no B02 owned by Mrs.Dipti Londhe and Mr.Amol Londhe",
+            "north": "by 15 feet internal road",
+            "south": "By S.No.16/3/PL30B owned by Mrs.Seema Wagh"
+          },
+          "adjacent_properties": [
+            {
+              "name": "S.No.16/3/PL30B",
+              "owner_name": "Mrs.Seema Wagh"
+            }
+          ]
+        },
+        "sale_amount_information": {
+          "final_transaction_amount": "Rs.22,50,000/- (Rupees Twenty Two Lakhs Fifty Thousand only)",
+          "currency": "INR",
+          "installments": [
+            {
+              "amount": "Rs. 2,00,000/-",
+              "payment_date": "30-01-25",
+              "payment_mode": "",
+              "bank_details": "ICICI Bank 035372",
+              "remarks": ""
+            },
+            {
+              "amount": "Rs. 4,84,375/-",
+              "payment_date": "16-03-25",
+              "payment_mode": "",
+              "bank_details": "ICICI Bank 035367",
+              "remarks": ""
+            },
+            {
+              "amount": "Rs. 01,90,625/-",
+              "payment_date": "05-02-26",
+              "payment_mode": "",
+              "bank_details": "ICICI Bank 035373",
+              "remarks": ""
+            },
+            {
+              "amount": "Rs. 375,000/-",
+              "payment_date": "06-02-25",
+              "payment_mode": "",
+              "bank_details": "ICICI Bank 035375",
+              "remarks": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+I think this manual updation is going to take a long 
+I think I should go back to lovable & ask it make these changes 
+1. adding services folder which fetches data just as we did
+2. sidebar data fetching using appr endpoint & using correct schema to display & name as well passing correct id to fetch entire document
+3. Proper Data display template when any element selected from sidebar also option of pdf/word download
+4. Removing further chating feature just limit it to summarization 
+5. Summarization - alignment with the latest template(json), removing feature of continuing further chats 
+6. Removing Page selection component instead direcly upload the complete pdf & accept only pdfs
+7. While document is processing there is a feature of SSE as well as polling 
+the states/steps are - pdf_to_image, ocr_processing, stamp_detection, doc_build, prompt build , llm_extraction
+endpoints for this are 
+Uploading doc - http://localhost:8000/api/upload
+Processing Status-  http://localhost:8000/api/processing-status/{document_id}
+Stream - http://localhost:8000/api/stream/{document_id}
+GEtting final report - http://localhost:8000/api/report/{document_id}
+
+For sidebar list of docs- http://localhost:8000/api/history/documents
+For individual fetching - http://localhost:8000/api/history/documents/{document_id}
+

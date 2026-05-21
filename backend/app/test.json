@@ -1,0 +1,320 @@
+{
+  "document_metadata": {
+    "document_type": "Sale Deed",
+    "property_type": "Non-Agricultural Land",
+    "execution_date": "2025-04-22",
+    "execution_place": "Pune, Maharashtra",
+    "registration_details": {
+      "sub_registrar_office": "Sub Registrar Mulshi",
+      "district": "Pune",
+      "state": "Maharashtra"
+    }
+  },
+  "entities": {
+    "vendor": {
+      "name": "Pradeep Kumar Misra",
+      "father_name": "Harihchand Misra",
+      "age": 55,
+      "occupation": "Business",
+      "pan_number": "BNPKM8090H",
+      "address": {
+        "full_address": "B-20/71 A, Choura Mata, Bhelupur, Varanasi, Uttar Pradesh – 220005",
+        "city": "Varanasi",
+        "state": "Uttar Pradesh",
+        "postal_code": "220005"
+      },
+      "role": "Vendor"
+    },
+    "purchasers": [
+      {
+        "name": "Annaso Mahadev Kokare",
+        "father_name": "Mahadev Krushna Kokare",
+        "age": 36,
+        "occupation": "Service",
+        "pan_number": "BDBPK3988C",
+        "address": {
+          "full_address": "1/1/2, Dattakrupa Niwas, Near Vitthal Rukhmini Mandir, Pimpri Nilakh, Pune, Maharashtra – 411027",
+          "city": "Pune",
+          "state": "Maharashtra",
+          "postal_code": "411027"
+        },
+        "role": "Purchaser"
+      },
+      {
+        "name": "Jaindar Tatoa Kokare",
+        "husband_name": "Tatoba Kokare",
+        "age": 42,
+        "occupation": "Service",
+        "pan_number": "DVIPK7911N",
+        "address": {
+          "full_address": "Karad Patan Road, Jomling Phata, Vasantgad, Satara, Maharashtra – 415114",
+          "city": "Satara",
+          "state": "Maharashtra",
+          "postal_code": "415114"
+        },
+        "role": "Purchaser"
+      },
+      {
+        "name": "Pravin Haribhau Chinchkar",
+        "father_name": "Haribhau Kashinath Chinchkar",
+        "age": 34,
+        "occupation": "Service",
+        "pan_number": "ARXPC8181C",
+        "address": {
+          "full_address": "Vasantgad, Satara, Maharashtra – 415114",
+          "city": "Satara",
+          "state": "Maharashtra",
+          "postal_code": "415114"
+        },
+        "role": "Purchaser"
+      }
+    ],
+    "consenting_party": {
+      "name": "Lalit Anand alias Anant Shinde",
+      "age": 37,
+      "occupation": "Farmer",
+      "pan_number": "CEKPS9223G",
+      "address": {
+        "full_address": "Kasarsai, Taluka Mulshi, District Pune – 410506",
+        "district": "Pune",
+        "state": "Maharashtra",
+        "postal_code": "410506"
+      },
+      "role": "Consenting Party",
+      "legal_context": {
+        "civil_suit_number": "356/2015",
+        "claim": "Undivided ownership share claim",
+        "agreed_conditions": [
+          "Will not object to purchaser possession",
+          "Will not demand future compensation",
+          "Will not raise ownership dispute"
+        ]
+      }
+    }
+  },
+  "ownership_history": [
+    {
+      "sequence": 1,
+      "owner_names": [
+        "Anand Gangaram Shinde",
+        "Laxmibai Gangaram Shinde"
+      ],
+      "holding_period": {
+        "from": null,
+        "to": "2005-05-03"
+      },
+      "ownership_type": "Original Owners",
+      "transfer_reason": "Original ownership",
+      "property_details": {
+        "survey_number": "16/3",
+        "total_area": "2 Hectares 39 Ares"
+      }
+    },
+    {
+      "sequence": 2,
+      "owner_names": [
+        "Sushila Narayan Patil"
+      ],
+      "holding_period": {
+        "from": "2005-05-03",
+        "to": "2006-08-17"
+      },
+      "transfer_reason": "Purchase through registered Sale Deed",
+      "sale_deed": {
+        "document_number": "1336/2005",
+        "registration_date": "2005-05-03",
+        "registration_office": "Sub Registrar Mulshi (Paud)"
+      },
+      "mutation_entry_number": "2077"
+    },
+    {
+      "sequence": 3,
+      "owner_names": [
+        "Bharat Kantilal Sonigra"
+      ],
+      "holding_period": {
+        "from": "2006-08-17",
+        "to": "2007-02-26"
+      },
+      "transfer_reason": "Purchase through registered Sale Deed",
+      "sale_deed": {
+        "document_number": "5364/2006",
+        "registration_date": "2006-08-17",
+        "registration_office": "Sub Registrar Mulshi (Paud)"
+      },
+      "mutation_entry_number": "2228"
+    },
+    {
+      "sequence": 4,
+      "owner_names": [
+        "Vidya Rajesh Mishra"
+      ],
+      "holding_period": {
+        "from": "2007-02-26",
+        "to": "2008-09-24"
+      },
+      "transfer_reason": "Purchase through Power of Attorney holder",
+      "power_of_attorney_holder": "Sangeeta Ramsagar Prasad",
+      "sale_deed": {
+        "document_number": "1636/2007",
+        "registration_date": "2007-02-26",
+        "registration_office": "Sub Registrar Mulshi (Paud)"
+      },
+      "mutation_entry_number": "2321"
+    },
+    {
+      "sequence": 5,
+      "owner_names": [
+        "Pradeep Kumar Harishchand Misra"
+      ],
+      "holding_period": {
+        "from": "2008-09-24",
+        "to": "2025-04-22"
+      },
+      "transfer_reason": "Purchase through registered Sale Deed",
+      "sale_deed": {
+        "document_number": "4669/2008",
+        "registration_date": "2008-09-24",
+        "registration_office": "Sub Registrar Mulshi (Paud)"
+      },
+      "mutation_entry_number": "2484"
+    }
+  ],
+  "transaction_details": {
+    "transaction_type": "Sale",
+    "sale_consideration": {
+      "amount_numeric": 1687500,
+      "currency": "INR",
+      "amount_in_words": "Rupees Sixteen Lakhs Eighty Seven Thousand Five Hundred Only"
+    },
+    "payment_schedule": [
+      {
+        "payment_date": "2025-01-28",
+        "bank_name": "ICICI Bank",
+        "transaction_reference": "184509973",
+        "payment_mode": "RTGS",
+        "amount": 400000
+      },
+      {
+        "payment_date": "2025-01-28",
+        "bank_name": "ICICI Bank",
+        "transaction_reference": "184509979",
+        "payment_mode": "RTGS",
+        "amount": 100000
+      },
+      {
+        "payment_date": "2024-12-23",
+        "bank_name": "ICICI Bank",
+        "transaction_reference": "43516993234",
+        "payment_mode": "RTGS",
+        "amount": 100000
+      },
+      {
+        "payment_date": "2025-01-28",
+        "bank_name": "ICICI Bank",
+        "transaction_reference": "1846004176",
+        "payment_mode": "RTGS",
+        "amount": 800000
+      },
+      {
+        "payment_date": "2024-09-05",
+        "bank_name": "ICICI Bank",
+        "transaction_reference": "000689",
+        "payment_mode": "Cheque",
+        "amount": 287500
+      }
+    ],
+    "total_amount_paid": 1687500,
+    "possession_status": {
+      "physical_possession_transferred": true,
+      "vacant_possession_transferred": true,
+      "transfer_date": "2025-04-22"
+    }
+  },
+  "taxes_and_charges": {
+    "tax_status": {
+      "na_tax_paid_till_execution": true,
+      "future_tax_liability": "Purchasers"
+    },
+    "government_charges": {
+      "ready_reckoner_value": 11111000,
+      "agreed_consideration": 1687500,
+      "stamp_duty": {
+        "percentage": 6,
+        "amount": 101220
+      },
+      "registration_fee": {
+        "percentage": 1,
+        "amount": 16880
+      }
+    }
+  },
+  "legal_clauses": {
+    "title_assurance": {
+      "clear_title": true,
+      "marketable_title": true,
+      "self_acquired_property": true,
+      "peaceful_possession_assured": true
+    },
+    "encumbrance_status": {
+      "mortgage": false,
+      "lease": false,
+      "acquisition": false,
+      "government_reservation": false,
+      "court_attachment": false,
+      "bank_claims": false,
+      "creditor_claims": false
+    },
+    "pending_litigation": {
+      "exists": true,
+      "case_number": "356/2015",
+      "court_location": "Pune",
+      "party_involved": "Lalit Anand alias Anant Shinde",
+      "status": "Pending"
+    },
+    "na_permission": {
+      "granted": true,
+      "order_number": "PML/NA/SR/36/07",
+      "order_date": "2008-08-05",
+      "purpose": "Residential non-agricultural use"
+    }
+  },
+  "property_details": {
+    "main_property": {
+      "property_type": "Non-Agricultural Land",
+      "survey_number": "16/3",
+      "total_area": {
+        "hectares": 2,
+        "ares": 39
+      },
+      "village": "Kasarsai",
+      "taluka": "Mulshi",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "boundaries": {
+        "east": "Remaining land of S.No. 16/3",
+        "south": "By 16/3/P-27",
+        "west": "Remaining S.No. NA Plot No. 27",
+        "north": "NA Plot No. 28 (Old Plot No. 12A)"
+      }
+    },
+    "transferred_property": {
+      "plot_number": "27C",
+      "survey_number": "16/3",
+      "property_type": "NA Plot",
+      "area_sq_ft": 1900,
+      "location": {
+        "village": "Kasarsai",
+        "taluka": "Mulshi",
+        "district": "Pune",
+        "state": "Maharashtra"
+      },
+      "boundaries": {
+        "east": "Remaining land of S.No. 16/3",
+        "south": "15 feet internal road",
+        "west": "Plot No. 27B owned by Mr. Limbka Fadtale and Mrs. Laxmi Fadtale",
+        "north": "NA Plot No. 28 (Old Plot No. 12A)"
+      }
+    }
+  }
+}
