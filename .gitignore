@@ -4,6 +4,7 @@
 __pycache__/
 *.py[cod]
 *.so
+*.test.json
 
 # Virtual Environments
 venv/
